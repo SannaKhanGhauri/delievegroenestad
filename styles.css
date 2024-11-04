@@ -1,0 +1,215 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body.eerste{
+    font-family: Inter, Arial, sans-serif;
+    background-color: #ffde59;
+    text-align: center;
+    color: #000;
+    width: 375px; 
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/* Header Styling */
+body.eerste header h1 {
+    font-family: copperplate;
+    font-size: 2.5em;
+    color: #000;
+}
+
+/* Main Content Styling */
+body.eerste main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 375px; 
+}
+
+/* Section with Speech Bubble */
+body.eerste section {
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+body.eerste section::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+}
+
+/* Image Styling in Section */
+body.eerste section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+/* Footer Navigation Buttons */
+body.eerste footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+body.eerste footer nav ul li {
+    margin: 10px;
+}
+
+body.eerste footer nav ul li a {
+    display: block;
+    background-color: #D32F2F;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+body.eerste span{
+    font-family: 'Copperplate', Arial, sans-serif;
+}
+body.eerste section {
+   
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: top left;
+    background-origin: padding-box; 
+    padding: 40px; 
+}
+
+/*CSS tweede page*/
+
+
+/* Basic Body Styling */
+body.tweede{
+    font-family: Inter, Arial, sans-serif;
+    background-color: #ffde59;
+    text-align: center;
+    color: #000;
+    width: 375px; 
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/* Header Styling */
+body.tweede header h1 {
+    font-family: copperplate;
+    font-size: 2.5em;
+    color: #000;
+}
+
+.tweede header h1 span {
+    font-family: copperplate;}
+
+/* Main Content Styling */
+.tweede main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.tweede section h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.tweede section p {
+    font-size: 0.5em;
+    z-index: 1;
+}
+
+.tweede section a {
+    color: #FFD700; 
+    text-decoration: underline;
+}
+
+
+body.tweede footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+body.tweede footer nav ul li {
+    margin: 10px;
+}
+
+body.tweede footer nav ul li a {
+    display: block;
+    background-color: #D32F2F;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.tweede section {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 10px 15px;
+    background-image: url('images/rode box.png');
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+
+.tweede section h2, .tweede section p {
+    position: relative;
+    z-index: 1;
+}
+
+
+    .tweede section {
+        width: 90%; 
+        padding: 15px;
+    }
+
+    .tweede section h2 {
+        font-size: 1em;
+    }
+    .tweede section p {
+        font-size: 0.85rem;
+    }
+
+body.derde footer nav ul li a {
+    display: block;
+    background-color: #D32F2F;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    max-width: 300px;
+    margin: 0 auto;
+}
